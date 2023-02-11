@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration info</title>
+</head>
+<body style="background-color: rgb(255,229,204);">
+	<h1>Registration Page</h1>
+	<table>
+		<tr>
+			<td>
+				<fieldset style="width: 650px; padding: 10px; background-color: rgb(204,229,255);">
+					<legend><b>General Information</b></legend>
+					<form method="POST" action="text.php">
+						<label for="fname"><b>First Name : </b></label>
+						<input type="text" id="fname" name="fname">
+						<br><br>
+						<label for="lname"><b>Last Name : </b></label>
+						<input type="text" id="lname" name="lname">
+						<br><br>
+						<label for="fathername"><b>Father Name : </b></label>
+						<input type="text" id="fathername" name="fathername">
+						<br><br>
+						<label for="mothername"><b>Mother Name : </b></label>
+						<input type="text" id="mothername" name="mothername">
+						<label for="img"><b>&ensp;Select Photo : </b></label>
+						<input type="file" id="img" name="img" accept="image/jpg, image/png">
+						<br><br>
+						<label for="gender"><b>Gender : </b></label>
+						<input type="radio" id="gender" name="gender" value="Male">
+						<label for="gender">Male</label>
+						<input type="radio" id="gender" name="gender" value="Female">
+						<label for="gender">Female</label>
+						<br><br>
+						<label for="birthday"><b>Date of Birth : </b></label>
+						<input type="date" id="birthday" name="birthday">
+						<br><br>
+						<label for="BG"><b>Blood Group : </b></label>
+						<select id="BG" name="bloodgrp">
+							<option value="A+">A+</option>
+							<option value="B+">B+</option>
+							<option value="O+">O+</option>
+							<option value="AB+">AB+</option>
+							<option value="AB-">AB-</option>
+							<option value="A-">A-</option>
+						</select>
+					</form>
+				</fieldset>
+			</td>
+			<td>
+				<fieldset style="width: 500px; padding: 10px; background-color: rgb(204,255,229);">
+					<legend><b>General Information</b></legend>
+					<form method="POST" action="text.php">
+						<label for="email"><b>Email : </b></label>
+						<input type="text" id="email" name="email">
+						<br><br>
+						<label for="phn"><b>Phone/Mobile : </b></label>
+						<input type="text" id="phn" name="phn">
+						<br><br>
+						<label for="wb"><b>Website : </b></label>
+						<input type="text" id="wb" name="wb">
+						<br><br>
+						<label for="Add"><b>Present Address : </b></label>
+						<textarea type="text" id="Add" name="Add" ></textarea>
+						<br><br>
+					</form>
+				</fieldset>
+			</td>
+		</tr>
+	</table>
+	<input type="submit" value="Register">
+
+</body>
+</html>
