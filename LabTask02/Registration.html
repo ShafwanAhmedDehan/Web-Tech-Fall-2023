@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+</head>
+<body>
+	<center>
+	<table>
+		<tr>
+			<td></td>
+			<td>
+				<fieldset style="width: 300px; padding: 10px;">
+				<legend><b>General Information</b></legend>
+				<table>
+				<form method="POST">
+					<tr>
+						<td><label for="fname"><b><center>First Name </center></b></label></td>
+						<td><b>:</b></td>
+						<td>
+							<input type="text" id="fname" name="fname">
+						</td>
+					</tr>
+					<tr>
+						<td><label for="lname"><b><center>Last Name </center></b></label></td>
+						<td><b>:</b></td>
+						<td>
+							<input type="text" id="lname" name="lname">
+						</td>
+					</tr>
+					<tr>
+						<td><label for="fathername"><b><center>Father Name </center></b></label></td>
+						<td><b>:</b></td>
+						<td>
+							<input type="text" id="fathername" name="fathername">
+						</td>
+					</tr>
+					<tr>
+						<td><label for="mothername"><b><center>Mother Name </center></b></label></td>
+						<td><b>:</b></td>
+						<td>
+							<input type="text" id="mothername" name="mothername">
+						</td>
+					</tr>
+					<tr>
+						<td><label for="gender"><b><center>Gender </center></b></label>
+						<td><b>:</b></td>
+						<td>
+							<input type="radio" id="gender" name="gender" value="Male">
+							<label for="gender">Male</label>
+							<input type="radio" id="gender" name="gender" value="Female">
+							<label for="gender">Female</label>
+						</td>
+					</tr>
+					<tr>
+						<td><label for="birthday"><b>Date of Birth </b></label></td>
+						<td><b>:</b></td>
+						<td>
+							<input type="date" id="birthday" name="birthday">
+						</td>
+					</tr>
+					<tr>
+						<td><label for="BG"><b>Blood Group </b></label></td>
+						<td><b>:</b></td>
+						<td>
+							<select id="BG" name="bloodgrp">
+								<option value="A+">A+</option>
+								<option value="B+">B+</option>
+								<option value="O+">O+</option>
+								<option value="AB+">AB+</option>
+								<option value="AB-">AB-</option>
+								<option value="A-">A-</option>
+							</select>
+						</td>
+					</tr>
+				</form>
+				</table> 
+				</fieldset>
+			</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>
+				<fieldset style="width: 300px; padding: 10px;">
+					<legend><b>Contact Information :</b></legend>
+					<table>
+						<form method="POST">
+							<tr>
+								<td>
+									<label for="email"><b><center>Email </center></b></label></td>
+									<td><b>:</b></td>
+								<td>
+									<input type="text" id="email" name="email">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="phn"><b><center>Phone/Mobile </center></b></label></td>
+									<td><b>:</b></td>
+								<td>
+									<input type="text" id="phn" name="phn">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="wb"><b><center>Website </center></b></label></td>
+									<td><b>:</b></td>
+								<td>
+									<input type="text" id="wb" name="wb">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="Add"><b>Present Address </b></label></label></td>
+									<td><b>:</b></td>
+								<td>
+									<textarea type="text" id="Add" name="Add" ></textarea>
+								</td>
+							</tr>
+						</form>
+					</table>
+				</fieldset>
+			</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><center>
+				<fieldset style="width: 250px; padding: 10px;">
+					<legend><b>Account Information :</b></legend>
+					<form method="POST">
+					<table>
+						<tr>
+							<td><label for="uname"><b><center>Username </center></b></label></td>
+							<td><b>:</b></td>
+							<td>
+								<input type="text" id="uname" name="uname">
+							</td>
+						</tr>
+						<tr>
+							<td><label for="pass"><b><center>Password </center></b></label></td>
+							<td><b>:</b></td>
+							<td>
+								<input type="text" id="pass" name="pass">
+							</td>
+						</tr>
+					</table>
+					</form>
+				</fieldset>
+			</center></td>
+		</tr>
+		<tr>
+			<form method="POST">
+				<td></td>
+				<td><center><input type="submit" value="Register"></center></td>
+			</form>
+		</tr>
+		<tr>
+			<td></td>
+			<td><center>Already have an account? Login <a href="http://localhost/Login.html">here.</a></center></td>
+		</tr>
+	</table>
+</center>
+</body>
+</html>
